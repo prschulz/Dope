@@ -2,14 +2,7 @@
     <div class="copyright">
         Powered by <a href="https://ghost.org/" target="_blank">Ghost</a>
     </div>
-    {{> logo}}
-    <div class="footer-social">
-        {{#if @site.facebook}}
-            <a class="footer-social-item" href="{{facebook_url @site.facebook}}"
-                target="_blank" rel="noopener noreferrer">
-                <i class="icon icon-facebook"></i>
-            </a>
-        {{/if}}
+    
         {{#if @site.twitter}}
             <a class="footer-social-item" href="{{twitter_url @site.twitter}}"
                 target="_blank" rel="noopener noreferrer">
