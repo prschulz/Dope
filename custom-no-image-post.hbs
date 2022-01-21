@@ -5,7 +5,7 @@
         {{#post}}
             <article
                 class="{{post_class}} no-image single-post">
-                {{> post-media single=true image=false with_caption=false }}
+                {{> post-media single=true show_image=false with_caption=false }}
                 {{#unless feature_image}}
                     {{> post-header single=true number_date=true show_tags=true}}
                 {{/unless}}
