@@ -2,7 +2,8 @@
     <div class="copyright">
         Proudly built with <a href="https://ghost.org/" target="_blank">Ghost</a>
     </div>
-    
+    {{> logo}}
+    <div class="footer-social">
         {{#if @site.twitter}}
             <a class="footer-social-item" href="{{twitter_url @site.twitter}}"
                 target="_blank" rel="noopener noreferrer">
