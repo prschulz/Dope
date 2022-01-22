@@ -13,6 +13,11 @@
     padding-top: 0;
 }
 
+/* Only applies to the homepage */
+.dark-background {
+    background-color: var(--black-color);
+}
+
 .home-template .content-area,
 .home-template .site-main,
 .home-template .tag-feed,

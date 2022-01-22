@@ -46,6 +46,16 @@
     color: var(--dark-gray-color);
 }
 
+.dark-background .site-footer,
+.dark-background .site-footer a  {
+    color: var(--white-color);
+}
+
+.dark-background .site-footer a:hover {
+    color: var(--mid-gray-color)
+}
+
+
 @media (max-width: 767px) {
     .site-footer {
         flex-direction: column;
