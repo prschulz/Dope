@@ -1,8 +1,80 @@
+.gh-signup {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    align-items: center;
+    text-align: center;
+    color: var(--primary-text-color)
+}
+
+.gh-signup-description {
+    line-height: 1.55;
+}
+
+.gh-signup .gh-subscribe-input {
+    height: 48px;
+    padding-left: 1.2rem;
+    margin-top: 1.6rem;
+    margin-bottom: 0;
+    font-size: 1.5rem;
+}
+
+.gh-signup-btn {
+    margin-top: 1.6rem;
+}
+
+.gh-subscribe-input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 440px;
+    height: 56px;
+    padding: 0 1.6rem;
+    margin: 4.8rem auto 0.8rem;
+    font-size: 1.6rem;
+    color: var(--secondary-text-color);
+    border: 1px solid var(--mid-gray-color);
+    border-radius: 6px;
+}
+
+
+.gh-subscribe-input:hover {
+    border-color: var(--color-mid-gray);
+    opacity: 1;
+}
+
+.gh-subscribe-input-text {
+    display: flex;
+    align-items: center;
+}
+
+.gh-subscribe-input svg {
+    position: relative;
+    top: 1px;
+    margin-right: 0.8rem;
+}
+
+.gh-subscribe-input-btn {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--dark-gray-color);
+    text-transform: uppercase;
+    letter-spacing: 0.01em;
+}
+
+.dark-background .gh-signup {
+    color: var(--white-color);
+}
+
+.dark-background .gh-subscribe-input-btn {
+    color: var(--white-color);
+}
+
+
 .site-footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 60px;
     padding: 45px 60px;
     line-height: 1;
 }
@@ -54,6 +126,9 @@
 .dark-background .site-footer a:hover {
     color: var(--mid-gray-color)
 }
+
+
+
 
 
 @media (max-width: 767px) {
