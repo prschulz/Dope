@@ -1,7 +1,7 @@
 :root {
     --primary-color: var(--ghost-accent-color, #9692af);
     --primary-text-color: #222;
-    --secondary-text-color: #aaa;
+    --secondary-text-color: #757575;
     --yellow-color: #ffc475;
     --white-color: #fff;
     --light-gray-color: #f1f1f1;
