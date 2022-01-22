@@ -14,7 +14,7 @@
 
 <div class="content-area">
     <main class="site-main">
-        {{#get "tags" limit="all" order="created_at desc"}}
+        {{#get "tags" limit="all" order="name desc"}}
             <div class="tag-feed owl" data-count="{{pagination.total}}">
                 {{#foreach tags}}
                     <div class="tag u-placeholder">
