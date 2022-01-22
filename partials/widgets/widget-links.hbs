@@ -1,4 +1,23 @@
 <section class="widget widget-links">
     <h4 class="widget-title">Useful Links</h4>
-    {{navigation type="secondary"}}
+
+    <ul class="nav-list u-plain-list">
+
+        {{^if @member}}
+            <li class="menu-item menu-item-sign-up">
+                <a class="menu-item-link u-underline" href="#/portal/">Sign up for random emails</a>
+            </li>
+        {{else}}
+            
+            <li class="menu-item menu-item-sign-up">
+                <a class="menu-item-link u-underline" href="#/portal/">Account</a>
+            </li>
+            <li class="menu-item menu-item-sign-up">
+                <a class="menu-item-link u-underline" href="javascript:" data-members-signout>Log out</a>
+            </li>
+        {{/if}}
+
+        
+    </ul>
+
 </section>
