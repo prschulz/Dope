@@ -4,8 +4,8 @@
     <main class="site-main">
         {{#post}}
             <article
-                class="{{post_class}} no-image single-post">
-                {{> post-media single=true show_image=false with_caption=false }}
+                class="{{post_class}}{{#unless feature_image}} no-image{{/unless}} single-post">
+                {{> post-media single=true big_image=false show_image=true with_caption=true}}
                 {{#unless feature_image}}
                     {{> post-header single=true number_date=true show_tags=true}}
                 {{/unless}}
