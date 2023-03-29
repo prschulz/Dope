@@ -3,15 +3,14 @@
     "description": "A Ghost theme",
     "version": "1.0.0",
     "engines": {
-        "ghost": ">=4.0.0",
-        "ghost-api": "v4"
+        "ghost": ">=4.0.0"
     },
     "license": "MIT",
-        "author": {
-            "name": "Ghost Foundation",
-            "email": "hello@ghost.org",
-            "url": "https://ghost.org"
-        },
+    "author": {
+        "name": "Ghost Foundation",
+        "email": "hello@ghost.org",
+        "url": "https://ghost.org"
+    },
     "keywords": [
         "ghost",
         "theme",
@@ -43,12 +42,18 @@
         "custom": {
             "title_font": {
                 "type": "select",
-                "options": ["Modern sans-serif", "Elegant serif"],
+                "options": [
+                    "Modern sans-serif",
+                    "Elegant serif"
+                ],
                 "default": "Modern sans-serif"
             },
             "body_font": {
                 "type": "select",
-                "options": ["Modern sans-serif", "Elegant serif"],
+                "options": [
+                    "Modern sans-serif",
+                    "Elegant serif"
+                ],
                 "default": "Modern sans-serif"
             },
             "show_share_links": {
